@@ -14,7 +14,6 @@ public class EmployeeController {
 
     public EmployeeController() throws SQLException {
         this.employee = new EmployeeRepository();
-
     }
 
     @GetMapping
